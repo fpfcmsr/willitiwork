@@ -20,6 +20,7 @@ modules:
   - type: script
     scripts:
       - download-bitwarden.sh
+      - download-brother-printers.sh
 
   - type: rpm-ostree
     repos:
@@ -34,7 +35,12 @@ modules:
       #- emacsclient
       #- vim
       #- nordvpn
-      - bitwarden-latest.rpm
+      - /bitwarden-latest.rpm
+      - /mfcl2710dwpdrv.rpm
+      - /brscan.rpm
+      - /brother-udev-rule.rpm
+      - /brmfcfaxdrv.rpm
+      - /brscan-skey.rpm
 
   - type: script
     snippets:
