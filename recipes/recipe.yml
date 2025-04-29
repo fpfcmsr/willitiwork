@@ -67,7 +67,6 @@ modules:
         - com.obsproject.Studio
         - dev.vencord.Vesktop
         - app.organicmaps.desktop
-        - 
         #- org.gnome.Loupe
         #- com.notesnook.Notesnook
         #- com.ticktick.TickTick
